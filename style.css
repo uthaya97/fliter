@@ -1,0 +1,64 @@
+
+.sport-container{
+    width: 90%;
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+}
+.sport-card{
+    box-shadow: 0 0 5px 0;
+}
+.drap-sports{
+    text-align: center;
+    padding: 20px;
+}  
+.btn-div{
+    text-align: center;
+}
+
+h4,p{
+    text-align: center;
+}
+p{
+   padding-bottom: 20px;
+  
+}
+button:active{
+    opacity: 0.5;
+}
+
+
+
+
+/* .sport-col{
+    width: 30%;
+    padding: 20px;
+}
+.sport-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.sport-card{
+    border: 1px solid;
+}
+img{
+width: 100%;
+height: 250px;
+} */
+/* .sport-card p,h4{
+    text-align: center;
+} */
+/* .drap-sports{
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+}  */

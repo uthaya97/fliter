@@ -1,0 +1,57 @@
+@media(min-width:360px){
+    .sport-col{
+        width: 100%;
+        padding: 15px;
+    }
+    .sport-row{
+        width: 100%;
+        display: flex;
+      
+        flex-wrap: wrap;
+    }
+    button{
+     margin-top: 10px;
+     padding: 5px 8px;
+     border: none;
+     background-color:rgb(212, 108, 108);
+     color: white;
+     border-top-right-radius: 50px;
+     border-bottom-left-radius: 50px;
+    }
+}
+
+@media(min-width:660px){
+    .sport-col{
+        width: 100%;
+        padding: 15px;
+    }
+    .sport-row{
+        width: 100%;
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+}
+
+@media(min-width:960px){
+    .sport-col{
+        width: 30%;
+        padding: 15px;
+    }
+    .sport-row{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    } 
+    button{
+        padding: 15px 35px;
+        background-color:rgb(212, 108, 108);
+        border: none;
+        margin-right: 10px;
+        color: white;
+        font-size: large;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+}
